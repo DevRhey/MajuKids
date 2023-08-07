@@ -17,7 +17,7 @@ header {
   font-size: 30px;
   font-family: "Curlz MT";
   color: rgb(223, 31, 31);
-  height: 80px;
+  height: auto;
   background-color: rgb(106, 236, 236);
 }
 header li,
@@ -60,6 +60,7 @@ li {
 .metodo-img {
   display: flex;
   justify-content: space-between;
+  height: 50%;
 }
 form input,
 form textarea,
@@ -76,12 +77,16 @@ form textarea {
   text-align: center;
   background-color: rgb(106, 236, 236);
 }
+
 #produtos h2 {
   text-align: center;
   background-color: aquamarine;
 }
 #produtos img {
-  height: 250px;
   width: 250px;
+  height: 250px;
   padding: 10px;
+}
+#produtos {
+  height: auto;
 }
