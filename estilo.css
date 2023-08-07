@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-header .container {
-  align-items: center;
+header .container,
+section .container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 header h1,
@@ -25,4 +26,62 @@ a {
   display: inline;
   text-decoration: none;
   font-size: 25px;
+}
+section .store-front {
+  width: 50%;
+  margin-right: 15px;
+}
+section .container {
+  align-items: start;
+}
+section {
+  padding: 24px 0;
+}
+section h2 {
+  font-family: "Curlz MT";
+  color: rgb(223, 31, 31);
+  margin-bottom: 16px;
+}
+section p,
+li {
+  color: rgb(52, 6, 219);
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.social-links img {
+  height: 24px;
+}
+#contact .container,
+#produtos .container {
+  display: block;
+}
+.contact-method,
+.metodo-img {
+  display: flex;
+  justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  resize: none;
+}
+#produtos h1 {
+  text-align: center;
+  background-color: rgb(106, 236, 236);
+}
+#produtos h2 {
+  text-align: center;
+  background-color: aquamarine;
+}
+#produtos img {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
 }
